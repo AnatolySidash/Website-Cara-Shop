@@ -225,10 +225,16 @@ li {
    text-align: center;
 }
 
+.section__title_text {
+   font-size: 19px;
+}
+
 .product__block {
    display: flex;
    justify-content: space-evenly;
    padding: 10px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    flex-wrap: wrap;
 }
 
@@ -314,4 +320,174 @@ li {
 .shopping__cart i {
    color: #088178;
    padding: 12px 10px;
+}
+
+
+/*      Banner      */
+
+.banner {
+   margin: 50px 0;
+   padding: 50px 0;
+   background: url(img/banner/b2.jpg) center no-repeat;
+   background-size: cover;
+}
+
+.banner__block {
+   text-align: center;
+}
+
+.banner__suptitle {
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.banner__title {
+   color: #fff;
+   margin-bottom: 15px;
+   font-size: 40px;
+}
+
+.banner__title span {
+   color: rgb(211, 26, 26);
+}
+
+.banner__button {
+   background-color: transparent;
+   border: none;
+   color: #000;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: inherit;
+   background-color: #fff;
+   padding: 15px 30px;
+   border-radius: 3px;
+   cursor: pointer;
+   border: 1px solid #000;
+   transition: all 0.3s ease-in-out;
+}
+
+.banner__button:hover {
+   background-color: #000;
+   color: #fff;
+   border: 1px solid #fff;
+}
+
+
+/*      Small Banner      */
+
+.small__banner_block {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px 40px;
+}
+
+.small__banner_item {
+   width: 49%;
+   min-height: 40vh;
+   background: url(img/banner/b17.jpg) center no-repeat;
+   background-size: cover;
+}
+
+.small__banner_content {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   height: 40vh;
+   padding-left: 30px;
+}
+
+.small__banner_suptitle {
+   font-size: 28px;
+   font-weight: 300;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.small__banner_title {
+   font-size: 36px;
+   line-height: 36px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.small__banner_text {
+   margin: 0;
+   font-size: 19px;
+   color: #fff;
+   margin-bottom: 15px;
+}
+
+.small__button {
+   background-color: transparent;
+   border: none;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 18px;
+   border: 1px solid #fff;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.small__banner_item:hover .small__button {
+   background-color: #fff;
+   color: #000;
+}
+
+.second__banner {
+   background-image: url(img/banner/b10.jpg);
+}
+
+
+/*      Tiny Banner      */
+
+.tiny__banner_block {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px 40px;
+}
+
+.tiny__banner_item {
+   min-width: 30%;
+   min-height: 25vh;
+   background: url(img/banner/b7.jpg) center no-repeat;
+   background-size: cover;
+}
+
+.tiny__banner_content {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   height: 25vh;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.tiny__banner_title {
+   font-size: 28px;
+   line-height: 28px;
+   text-transform: uppercase;
+   color: #fff;
+   margin-bottom: 15px;
+}
+
+.tiny__banner_text {
+   margin: 0;
+   color: rgb(211, 26, 26);
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.tiny__banner2 {
+   background: url(img/banner/b4.jpg);
+   background-size: cover;
+}
+
+.tiny__banner3 {
+   background: url(img/banner/b18.jpg);
+   background-size: cover;
 }
