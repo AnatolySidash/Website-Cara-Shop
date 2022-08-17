@@ -18,9 +18,9 @@
       </a>
 
       <nav class="navbar">
-         <ul class="navbar__list">
+         <ul class="navbar__list" id="navbar">
             <li class="navbar__item">
-               <a class="navbar__link active" href="index.html">Home</a>
+               <a class="navbar__link" href="index.html">Home</a>
             </li>
             <li class="navbar__item">
                <a class="navbar__link" href="shop.html">Shop</a>
@@ -34,13 +34,20 @@
             <li class="navbar__item">
                <a class="navbar__link" href="contact.html">Contact</a>
             </li>
-            <li class="navbar__item">
+            <li class="navbar__item mobile__cart">
                <a class="navbar__link" href="cart.html">
                   <i class="fa-solid fa-bag-shopping"></i>
                </a>
             </li>
+            <a class="close" href="#" id="close">
+               <i class="fa-solid fa-xmark"></i>
+            </a>
          </ul>
       </nav>
+      <div class="burger">
+         <i class="fa-solid fa-bag-shopping"></i>
+         <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
    </header>
 
    <section class="hero">
