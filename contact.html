@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/dff1303042.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css" class="rel">
+   <title>Cara Shop</title>
+</head>
+
+<body>
+
+   <header class="header">
+      <a class="logo__link" href="#">
+         <img class="logo__img" src="img/logo.png" alt="Logo">
+      </a>
+
+      <nav class="navbar">
+         <ul class="navbar__list" id="navbar">
+            <li class="navbar__item">
+               <a class="navbar__link" href="index.html">Home</a>
+            </li>
+            <li class="navbar__item">
+               <a class="navbar__link" href="shop.html">Shop</a>
+            </li>
+            <li class="navbar__item">
+               <a class="navbar__link" href="blog.html">Blog</a>
+            </li>
+            <li class="navbar__item">
+               <a class="navbar__link" href="about.html">About</a>
+            </li>
+            <li class="navbar__item">
+               <a class="navbar__link active" href="contact.html">Contact</a>
+            </li>
+            <li class="navbar__item mobile__cart">
+               <a class="navbar__link" href="cart.html">
+                  <i class="fa-solid fa-bag-shopping"></i>
+               </a>
+            </li>
+            <a class="close" href="#" id="close">
+               <i class="fa-solid fa-xmark"></i>
+            </a>
+         </ul>
+      </nav>
+      <div class="burger">
+         <i class="fa-solid fa-bag-shopping"></i>
+         <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+   </header>
+
+   <section class="shop__header about__header">
+      <h2 class="hero__suptitle_2">#let's_talk</h2>
+      <div class="hero__text">
+         <p>LEAVE A MESSAGE! We love to get feedback from you!</p>
+      </div>
+   </section>
+
+   <section class="contact">
+      <div class="contact__block">
+         <h5 class="contact_suptitle">Get in Touch</h5>
+         <h3 class="contact__title">Visit one of our agency locations or contact us today</h3>
+         <h4 class="contact__subtitle">Head Office</h4>
+         <ul class="contact__list">
+            <li class="contact__list__item">
+               <i class="fa-solid fa-map"></i>
+               <address class="contact__address">56 Glassford Street Glasgow G1 1UL New York</address>
+            </li>
+            <li class="contact__list__item">
+               <i class="fa-solid fa-envelope"></i>
+               <address class="contact__address">contact_example@gmail.com</address>
+            </li>
+            <li class="contact__list__item">
+               <i class="fa-solid fa-phone"></i>
+               <address class="contact__address">+7 812 414 36 91</address>
+            </li>
+            <li class="contact__list__item">
+               <i class="fa-solid fa-clock"></i>
+               <address class="contact__address">Monday to Saturday: 09:00 am to 16:00 pm</address>
+            </li>
+         </ul>
+      </div>
+      <div class="contact__block">
+         <div class="map">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.9786885193266!2d30.31748612602035!3d59.9388407921273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310b32cbe2e9%3A0x74e032aa0505dfc!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INCt0YDQvNC40YLQsNC2!5e0!3m2!1sru!2sru!4v1661427886982!5m2!1sru!2sru"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+   </section>
+
+   <section class="contact__form">
+      <div class="form__data">
+         <h3 class="form__title">We love to hear from you</h3>
+         <form action="submit" class="submit__form">
+            <input type="text" class="input__item" placeholder="Your Name">
+            <input type="email" class="input__item" placeholder="Email">
+            <input type="text" class="input__item" placeholder="Subject">
+            <textarea class="form__textarea" placeholder="Your Message"></textarea>
+            <button class="form__button add__button">Submit</button>
+         </form>
+      </div>
+      <div class="contact__person">
+         <div class="person__block">
+            <img src="img/people/1.png" alt="John Doe">
+            <ul class="person__data">
+               <li class="person__name">John Doe</li>
+               <li class="person__info">Senior Marketing manager</li>
+               <li class="person__info">+ 7 812 489 03 01</li>
+               <li class="person__info">contact_example@gmail.com</li>
+            </ul>
+         </div>
+         <div class="person__block">
+            <img src="img/people/2.png" alt="John Doe">
+            <ul class="person__data">
+               <li class="person__name">William Smith</li>
+               <li class="person__info">Senior Marketing manager</li>
+               <li class="person__info">+ 7 812 489 03 02</li>
+               <li class="person__info">contact_example@gmail.com</li>
+            </ul>
+         </div>
+         <div class="person__block">
+            <img src="img/people/3.png" alt="John Doe">
+            <ul class="person__data">
+               <li class="person__name">Emma Stone</li>
+               <li class="person__info">Senior Marketing manager</li>
+               <li class="person__info">+ 7 812 489 03 03</li>
+               <li class="person__info">contact_example@gmail.com</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <section class="newsletter">
+      <div class="newletter__container">
+         <div class="newsletter__content">
+            <h3 class="newsletter__title">Sign Up for Newsletters</h3>
+            <p class="newsletter__text">Get E-mail updates about our latest shop and <span>special offers</span></p>
+         </div>
+         <div class="newsletter__form">
+            <form action="submit" class="form">
+               <input type="email" class="newsletter__input" placeholder="Your email address">
+               <button class="newsletter__button">Sign Up</button>
+            </form>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__item footer__item--long">
+            <img class="footer__logo" src="img/logo.png" alt="Logo">
+            <h5 class="footer__title">Contact</h5>
+            <address><span>Address:</span> Wellington Road, Street 32, San Francisco</address>
+            <address><span>Phone:</span> +01 2222 365 / (+91) 2345 6789</address>
+            <address><span>Hours:</span> 10:00 - 18:00, Mon - Sat</address>
+
+            <h5 class="footer__title">Follow Us</h5>
+            <div class="footer__link">
+               <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-pinterest-p"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+               </a>
+            </div>
+         </div>
+         <div class="footer__item">
+            <h5 class="footer__title">About</h5>
+            <ul class="footer__list">
+               <a class="footer__item__link" href="#">
+                  <li>About Us</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>Delivery Information</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li">Privacy Policy</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>Terms & Conditions</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>Contact Us</li>
+               </a>
+            </ul>
+         </div>
+         <div class="footer__item">
+            <h5 class="footer__title">My Account</h5>
+            <ul class="footer__list">
+               <a class="footer__item__link" href="#">
+                  <li>Sign In</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>View Cart</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li">My Wishlist</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>Track My Order</li>
+               </a>
+               <a class="footer__item__link" href="#">
+                  <li>Help</li>
+               </a>
+            </ul>
+         </div>
+         <div class="footer__item footer__item--long">
+            <h5 class="footer__title">Install App</h5>
+            <div class="footer__text">From App Store or Google Play</div>
+            <div class="footer__link__block">
+               <a href="#" class="footer__pay">
+                  <img src="img/pay/app.jpg">
+               </a>
+               <a href="#" class="footer__pay">
+                  <img src="img/pay/play.jpg">
+               </a>
+            </div>
+            <div class="footer__text">Secured Payment Gateways</div>
+            <div class="footer__link__block">
+               <a href="#" class="footer__pay footer__pay--card">
+                  <img src="img/pay/pay.png">
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="copyright">2022 HTML CSS JS Website Template</div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>

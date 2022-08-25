@@ -1015,9 +1015,156 @@ address span {
 }
 
 
+/*      Contact Page      */
 
 
+.contact {
+   padding: 40px 80px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
 
+.contact__block {
+   width: 48%;
+}
+
+.contact_suptitle {
+   text-transform: uppercase;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+
+.contact__title {
+   max-width: 550px;
+   margin-bottom: 20px;
+}
+
+.contact__subtitle {
+   margin-bottom: 20px;
+}
+
+.contact__list__item {
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 10px;
+}
+
+.contact__list__item i {
+   margin-right: 20px;
+}
+
+.contact__address {
+   font-weight: 300;
+}
+
+.map iframe {
+   width: 100%;
+   height: 400px;
+}
+
+.contact__form {
+   padding: 40px 80px;
+   margin: 40px;
+   border: 1px solid #cadad8;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.form__data {
+   width: 70%;
+}
+
+.form__title {
+   margin-bottom: 20px;
+}
+
+.submit__form {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.submit__form input {
+   margin-bottom: 20px;
+   width: 90%;
+   min-height: 40px;
+   border: 1px solid #cadad8;
+   outline: none;
+   padding: 5px 20px;
+   font-size: 18px;
+}
+
+.input__item::placeholder {
+   font-weight: 300;
+}
+
+.input__item:focus {
+   background-color: rgb(233, 229, 212);
+}
+
+.form__textarea {
+   width: 90%;
+   min-height: 200px;
+   resize: none;
+   border: 1px solid #cadad8;
+   outline: none;
+   padding: 10px 20px;
+   font-size: 18px;
+}
+
+.form__textarea::placeholder {
+   font-weight: 300;
+}
+
+.form__textarea:focus {
+   background-color: rgb(233, 229, 212);
+}
+
+.form__button {
+   margin-top: 20px;
+   width: 100px;
+}
+
+.contact__person {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   min-height: 400px;
+}
+
+.person__block {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.person__block img {
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-right: 15px;
+}
+
+.person__data li {
+   margin-bottom: 10px;
+}
+
+.person__name {
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.person__info {
+   color: rgb(96, 116, 116);
+   font-weight: 300;
+}
 
 
 
@@ -1054,6 +1201,24 @@ address span {
       display: block;
       width: 100%;
 
+   }
+
+   .contact__block {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .form__data {
+      width: 100%;
+   }
+
+   .contact__person {
+      width: 100%;
+   }
+
+   .submit__form input,
+   .form__textarea {
+      width: 100%;
    }
 
    @media (max-width: 850px) {
@@ -1192,6 +1357,14 @@ address span {
          padding: 40px 40px;
       }
 
+      .contact {
+         padding: 20px 40px;
+      }
+
+      .contact__form {
+         padding: 20px 40px;
+      }
+
    }
 
    @media (max-width: 599px) {
@@ -1261,6 +1434,25 @@ address span {
 
       .video {
          padding: 20px;
+      }
+
+      .contact__title {
+         font-size: 28px;
+         line-height: 32px;
+      }
+
+      .form__title {
+         font-size: 28px;
+         line-height: 32px;
+      }
+
+      .contact {
+         padding: 10px 20px;
+      }
+
+      .contact__form {
+         padding: 10px 20px;
+         margin: 15px;
       }
    }
 
